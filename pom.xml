@@ -5,4 +5,13 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Automation-Assignment</name>
   <description>Test Automation framwork for Testing</description>
+  <dependencies>
+  <!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.34.0</version>
+    <scope>compile</scope>
+</dependency>
+  </dependencies>
 </project>
