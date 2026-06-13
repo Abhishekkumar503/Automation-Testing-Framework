@@ -1,11 +1,6 @@
 package com.ui.test;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 import com.ui.pages.HomePage;
-import com.ui.pages.LoginPage;
-import com.utility.BrowserUtility;
 
 public class LoginTest3 {
 

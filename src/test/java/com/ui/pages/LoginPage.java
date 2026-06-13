@@ -2,7 +2,6 @@ package com.ui.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 import com.utility.BrowserUtility;
 
@@ -15,7 +14,6 @@ public final class LoginPage extends BrowserUtility{
 
 	public LoginPage(WebDriver driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
 	}
 	
 	public MyAccountPage login(String email, String password)
