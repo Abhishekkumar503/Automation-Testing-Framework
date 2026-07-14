@@ -1,0 +1,61 @@
+2026-07-196 00:28:26 [main] INFO com.ui.listeners.TestListener Test suite Started 
+2026-07-196 00:28:26 [main] INFO com.ui.pages.HomePage Opening chrome browser 
+2026-07-196 00:28:27 [main] INFO com.ui.pages.HomePage navigating to the https://automationpractice.techwithjatin.com/my-account 
+2026-07-196 00:28:31 [main] INFO com.ui.pages.HomePage Maximizing the browser 
+2026-07-196 00:28:31 [main] INFO com.ui.test.loginTestWithTestBased Launching Chrome browser!! 
+2026-07-196 00:28:31 [main] INFO com.ui.listeners.TestListener loginCSVTest 
+2026-07-196 00:28:31 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
+2026-07-196 00:28:31 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-07-196 00:28:31 [main] ERROR com.ui.listeners.TestListener loginCSVTest FAILED 
+2026-07-196 00:28:31 [main] ERROR com.ui.listeners.TestListener Unresolved compilation problem: 
+	This method must return a result of type ExtentTest
+ 
+2026-07-196 00:28:31 [main] INFO com.ui.pages.HomePage Quitting the browser!! 
+2026-07-196 00:28:31 [main] INFO com.ui.test.loginTestWithTestBased Closing the browser!! 
+2026-07-196 00:28:31 [main] INFO com.ui.pages.HomePage Opening chrome browser 
+2026-07-196 00:28:32 [main] INFO com.ui.pages.HomePage navigating to the https://automationpractice.techwithjatin.com/my-account 
+2026-07-196 00:28:36 [main] INFO com.ui.pages.HomePage Maximizing the browser 
+2026-07-196 00:28:36 [main] INFO com.ui.test.loginTestWithTestBased Launching Chrome browser!! 
+2026-07-196 00:28:36 [main] INFO com.ui.listeners.TestListener loginTest 
+2026-07-196 00:28:36 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
+2026-07-196 00:28:36 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-07-196 00:28:36 [main] WARN com.ui.listeners.TestListener loginTest SKIPPED 
+2026-07-196 00:28:36 [main] INFO com.ui.pages.HomePage Quitting the browser!! 
+2026-07-196 00:28:36 [main] INFO com.ui.test.loginTestWithTestBased Closing the browser!! 
+2026-07-196 00:28:36 [main] INFO com.ui.pages.HomePage Opening chrome browser 
+2026-07-196 00:28:37 [main] INFO com.ui.pages.HomePage navigating to the https://automationpractice.techwithjatin.com/my-account 
+2026-07-196 00:28:41 [main] INFO com.ui.pages.HomePage Maximizing the browser 
+2026-07-196 00:28:41 [main] INFO com.ui.test.loginTestWithTestBased Launching Chrome browser!! 
+2026-07-196 00:28:41 [main] INFO com.ui.listeners.TestListener loginTest 
+2026-07-196 00:28:41 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
+2026-07-196 00:28:41 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-07-196 00:28:41 [main] WARN com.ui.listeners.TestListener loginTest SKIPPED 
+2026-07-196 00:28:41 [main] INFO com.ui.pages.HomePage Quitting the browser!! 
+2026-07-196 00:28:41 [main] INFO com.ui.test.loginTestWithTestBased Closing the browser!! 
+2026-07-196 00:28:41 [main] INFO com.ui.pages.HomePage Opening chrome browser 
+2026-07-196 00:28:42 [main] INFO com.ui.pages.HomePage navigating to the https://automationpractice.techwithjatin.com/my-account 
+2026-07-196 00:28:46 [main] INFO com.ui.pages.HomePage Maximizing the browser 
+2026-07-196 00:28:46 [main] INFO com.ui.test.loginTestWithTestBased Launching Chrome browser!! 
+2026-07-196 00:28:46 [main] INFO com.ui.listeners.TestListener loginTest 
+2026-07-196 00:28:46 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
+2026-07-196 00:28:46 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-07-196 00:28:46 [main] ERROR com.ui.listeners.TestListener loginTest FAILED 
+2026-07-196 00:28:46 [main] ERROR com.ui.listeners.TestListener Unresolved compilation problem: 
+	This method must return a result of type ExtentTest
+ 
+2026-07-196 00:28:46 [main] INFO com.ui.pages.HomePage Quitting the browser!! 
+2026-07-196 00:28:46 [main] INFO com.ui.test.loginTestWithTestBased Closing the browser!! 
+2026-07-196 00:28:46 [main] INFO com.ui.pages.HomePage Opening chrome browser 
+2026-07-196 00:28:47 [main] INFO com.ui.pages.HomePage navigating to the https://automationpractice.techwithjatin.com/my-account 
+2026-07-196 00:28:50 [main] INFO com.ui.pages.HomePage Maximizing the browser 
+2026-07-196 00:28:50 [main] INFO com.ui.test.loginTestWithTestBased Launching Chrome browser!! 
+2026-07-196 00:28:50 [main] INFO com.ui.listeners.TestListener loginTest 
+2026-07-196 00:28:50 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
+2026-07-196 00:28:50 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-07-196 00:28:50 [main] ERROR com.ui.listeners.TestListener loginTest FAILED 
+2026-07-196 00:28:50 [main] ERROR com.ui.listeners.TestListener Unresolved compilation problem: 
+	This method must return a result of type ExtentTest
+ 
+2026-07-196 00:28:50 [main] INFO com.ui.pages.HomePage Quitting the browser!! 
+2026-07-196 00:28:50 [main] INFO com.ui.test.loginTestWithTestBased Closing the browser!! 
+2026-07-196 00:28:50 [main] INFO com.ui.listeners.TestListener Test suite Completed 

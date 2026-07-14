@@ -1,13 +1,16 @@
 {
-  "env": {
-    "DEV": {
-      "url": "https://automationpractice.techwithjatin.com/my-account"
-    },
-    "QA": {
-      "url": "https://automationpractice.techwithjatin.com/my-account"
-    },
-    "UAT": {
-      "url": "https://automationpractice.techwithjatin.com/my-account"
-    }
-  }
-}   
+	"env": {
+		"DEV": {
+			"url": "https://automationpractice.techwithjatin.com/my-account",
+			"MAX_NUMBER_OF_ATTEMPTS": 1
+		},
+		"QA": {
+			"url": "https://automationpractice.techwithjatin.com/my-account",
+			"MAX_NUMBER_OF_ATTEMPTS": 2
+		},
+		"UAT": {
+			"url": "https://automationpractice.techwithjatin.com/my-account",
+			"MAX_NUMBER_OF_ATTEMPTS": 3
+		}
+	}
+}

@@ -6,11 +6,12 @@ import java.io.FileReader;
 import com.constant.Env;
 import com.google.gson.Gson;
 import com.ui.pojo.Config;
+import com.ui.pojo.Environment;
 
 
 public class JSONUtility {
 
-		public static String readUrl(Env env) {
+		public static Environment readUrl(Env env) {
 
 		// Initializing the GSON
 		Gson gson = new Gson();
@@ -31,11 +32,8 @@ public class JSONUtility {
 		// Reading the file throw Config class. This is mapping the file to class as well
 		Config config = gson.fromJson(fileReader, Config.class);
 
-//		// fetching the environment form Config file throw environment getter
-//		String environment = config.getUAT().getUrl();
-		
-		
-		String environment = config.getEnv().get("QA").getUrl();
+		// fetching the environment form Config file throw environment getter		
+		Environment environment = config.getEnv().get("QA");
 
 		System.out.println(environment);
 		return environment;
