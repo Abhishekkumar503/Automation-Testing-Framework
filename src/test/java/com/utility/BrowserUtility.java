@@ -14,7 +14,9 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.safari.SafariOptions;
 
 public abstract class BrowserUtility {
 
@@ -30,6 +32,28 @@ public abstract class BrowserUtility {
 			driver.set(new ChromeDriver());
 			driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
 		} else if (browserName.equalsIgnoreCase("safari"))
+			driver.set(new SafariDriver());
+		else {
+			logger.error("Invalid Browser..!! Please select chrome of Brave");
+		}
+	}
+
+//	Constructor 2
+	public BrowserUtility(String browserName, Boolean isHeadless) {
+		logger.info("Opening " + browserName + " browser");
+
+		if (browserName.equalsIgnoreCase("chrome")) {
+			if (isHeadless) {
+				ChromeOptions options = new ChromeOptions();
+				options.addArguments("--headless=old");
+				options.addArguments("--window-size=1920,1080");
+				driver.set(new ChromeDriver());
+				driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
+			} else {
+				driver.set(new ChromeDriver());
+				driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
+			}
+		} else if (browserName.equalsIgnoreCase("Safari"))
 			driver.set(new SafariDriver());
 		else {
 			logger.error("Invalid Browser..!! Please select chrome of Brave");

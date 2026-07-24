@@ -1,5 +1,8 @@
 package ExcelGenerator;
 
+import java.util.Arrays;
+import java.util.OptionalDouble;
+
 public class Demo {
 
 //	public static void main(String[] args) {
@@ -24,6 +27,9 @@ public class Demo {
         String input = "Abhishek321";
         String output = rearrange(input);
         System.out.println(output); // Output: 123Abhishek
+        
+        int[] arr = {1,2,4,6,7,32};
+        OptionalDouble ans = Arrays.stream(arr).average();
     }
 
     public static String rearrange(String str) {

@@ -14,7 +14,7 @@ public class ExtendReporterUtility {
 		extentReports.attachReporter(extentSparkReporter);
 	}
 
-	public static ExtentTest createExtentTest(String testName)
+	public static void createExtentTest(String testName)
 	{
 		ExtentTest test = extentReports.createTest(testName);
 		extendTest.set(test);

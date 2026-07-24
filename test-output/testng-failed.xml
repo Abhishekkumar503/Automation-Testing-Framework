@@ -5,9 +5,9 @@
     <classes>
       <class name="com.ui.test.loginTestWithTestBased">
         <methods>
-          <include name="loginTest" invocation-numbers="0 1"/>
-          <include name="loginCSVTest" invocation-numbers="0"/>
+          <include name="loginTest"/>
           <include name="tearUp"/>
+          <include name="loginCSVTest"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.ui.test.loginTestWithTestBased -->
