@@ -43,5 +43,13 @@ jobs:
           name: extent-report
           path: Extend_Reports/
 
+      - name: Upload an screenshot as Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshot
+          path: screenshots/
+
+
       - name: Test execution status
         run: echo "Execution Completed!"
