@@ -61,14 +61,14 @@ jobs:
         run: |
          mkdir -p public/Extend_Reports/
          cp -R Extend_Reports public/Extend_Reports
-         cp -R screenshot/* public/Extend_Reports/screenshots
+         cp -R screenshot/* public/Extend_Reports
 
 
       - name: Deploy
         if: always()
         uses: JamesIves/github-pages-deploy-action@v4.8.0
         with:
-         folder: public/Extend-Reports/screenshots/
+         folder: public/Extend-Reports/
          token: ${{secrets.PAT1}}
          clean: true
       
