@@ -69,7 +69,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.8.0
         with:
          folder: public/extend-reports/screenshots/
-         token: ${github-pages}
+         token: ${{secrets.PAT1}}
          clean: true
       
          
