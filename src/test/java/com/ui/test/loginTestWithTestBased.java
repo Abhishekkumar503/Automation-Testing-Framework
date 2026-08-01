@@ -2,7 +2,6 @@ package com.ui.test;
 
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -47,10 +46,5 @@ public class loginTestWithTestBased extends TestBased{
 //		logger.info("Login excel test completed!!");
 //		}
 	
-	@AfterMethod(description = "Closing the browser.")
-	public void tearUp()
-	{
-		  homepage.quitDriver();
-		  logger.info("Closing the browser!!");
-	}
+	
 }

@@ -1,9 +1,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-
-<suite name="Automation Practice Test Suite" parallel="methods"  thread-count="5" verbose="1">
-	<test name="UI Automation test">
-		<classes>
-			<class name="com.ui.test.TestngTest" />
-		</classes>
-	</test>
+<suite name="Automation Practice Test Suite" parallel="methods" thread-count="5" verbose="1">
+    <test name="UI Automation test">
+        <parameter name="browser" value="${sys:browser}" />
+		<parameter name="isLambdaTest" value="${sys:isLambdaTest}" />
+		<parameter name="isHeadless" value="${sys:isHeadless}" />
+        <classes>
+            <class name="com.ui.test.loginTestWithTestBased" />
+        </classes>
+    </test>
 </suite>

@@ -2,24 +2,46 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-22T23:01:19 IST" name="Default suite" finished-at="2026-07-22T23:01:38 IST" duration-ms="18970">
+  <suite started-at="2026-08-01T12:29:08 IST" name="Default suite" finished-at="2026-08-01T12:30:15 IST" duration-ms="66331">
     <groups>
       <group name="sanity">
-        <method signature="loginTestWithTestBased.loginCSVTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@19e7a160]" name="loginCSVTest" class="com.ui.test.loginTestWithTestBased"/>
-        <method signature="loginTestWithTestBased.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@19e7a160]" name="loginTest" class="com.ui.test.loginTestWithTestBased"/>
+        <method signature="loginTestWithTestBased.loginCSVTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@6cb6decd]" name="loginCSVTest" class="com.ui.test.loginTestWithTestBased"/>
+        <method signature="loginTestWithTestBased.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@6cb6decd]" name="loginTest" class="com.ui.test.loginTestWithTestBased"/>
       </group> <!-- sanity -->
       <group name="e2e">
-        <method signature="loginTestWithTestBased.loginCSVTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@19e7a160]" name="loginCSVTest" class="com.ui.test.loginTestWithTestBased"/>
-        <method signature="loginTestWithTestBased.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@19e7a160]" name="loginTest" class="com.ui.test.loginTestWithTestBased"/>
+        <method signature="loginTestWithTestBased.loginCSVTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@6cb6decd]" name="loginCSVTest" class="com.ui.test.loginTestWithTestBased"/>
+        <method signature="loginTestWithTestBased.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@6cb6decd]" name="loginTest" class="com.ui.test.loginTestWithTestBased"/>
       </group> <!-- e2e -->
     </groups>
-    <test started-at="2026-07-22T23:01:19 IST" name="Default test" finished-at="2026-07-22T23:01:38 IST" duration-ms="18970">
+    <test started-at="2026-08-01T12:29:08 IST" name="Default test" finished-at="2026-08-01T12:30:15 IST" duration-ms="66331">
       <class name="com.ui.test.loginTestWithTestBased">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.test.loginTestWithTestBased@19e7a160]" started-at="2026-07-22T23:01:19 IST" name="setup" description="Load homepage of the webside" finished-at="2026-07-22T23:01:25 IST" duration-ms="5179" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.Boolean,java.lang.Boolean,org.testng.ITestResult)[pri:0, instance:com.ui.test.loginTestWithTestBased@6cb6decd]" started-at="2026-08-01T12:29:08 IST" name="setup" description="Load homepage of the webside" finished-at="2026-08-01T12:29:24 IST" duration-ms="15195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=loginTestWithTestBased.loginCSVTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@6cb6decd] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginCSVTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@19e7a160]" started-at="2026-07-22T23:01:25 IST" name="loginCSVTest" description="Verify with valid user login into application" data-provider="csvDataProvider" finished-at="2026-07-22T23:01:25 IST" duration-ms="954" status="PASS">
+        <test-method signature="loginCSVTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@6cb6decd]" started-at="2026-08-01T12:29:24 IST" name="loginCSVTest" description="Verify with valid user login into application" data-provider="csvDataProvider" finished-at="2026-08-01T12:29:27 IST" duration-ms="2989" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,15 +52,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCSVTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.ui.test.loginTestWithTestBased@19e7a160]" started-at="2026-07-22T23:01:25 IST" name="tearUp" description="Closing the browser." finished-at="2026-07-22T23:01:26 IST" duration-ms="81" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.ui.test.loginTestWithTestBased@6cb6decd]" started-at="2026-08-01T12:29:27 IST" name="tearUp" description="Closing the browser." finished-at="2026-08-01T12:29:28 IST" duration-ms="1109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.test.loginTestWithTestBased@19e7a160]" started-at="2026-07-22T23:01:26 IST" name="setup" description="Load homepage of the webside" finished-at="2026-07-22T23:01:32 IST" duration-ms="6326" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.Boolean,java.lang.Boolean,org.testng.ITestResult)[pri:0, instance:com.ui.test.loginTestWithTestBased@6cb6decd]" started-at="2026-08-01T12:29:28 IST" name="setup" description="Load homepage of the webside" finished-at="2026-08-01T12:29:42 IST" duration-ms="14045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=loginTestWithTestBased.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@6cb6decd] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@19e7a160]" started-at="2026-07-22T23:01:32 IST" name="loginTest" description="Verify with valid user login into application" data-provider="loginDataProvider" finished-at="2026-07-22T23:01:33 IST" duration-ms="1226" status="PASS">
+        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@6cb6decd]" started-at="2026-08-01T12:29:42 IST" name="loginTest" description="Verify with valid user login into application" data-provider="loginDataProvider" finished-at="2026-08-01T12:29:54 IST" duration-ms="12407" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,15 +93,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.ui.test.loginTestWithTestBased@19e7a160]" started-at="2026-07-22T23:01:33 IST" name="tearUp" description="Closing the browser." finished-at="2026-07-22T23:01:33 IST" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.ui.test.loginTestWithTestBased@6cb6decd]" started-at="2026-08-01T12:29:54 IST" name="tearUp" description="Closing the browser." finished-at="2026-08-01T12:29:55 IST" duration-ms="826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.test.loginTestWithTestBased@19e7a160]" started-at="2026-07-22T23:01:33 IST" name="setup" description="Load homepage of the webside" finished-at="2026-07-22T23:01:37 IST" duration-ms="4104" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.Boolean,java.lang.Boolean,org.testng.ITestResult)[pri:0, instance:com.ui.test.loginTestWithTestBased@6cb6decd]" started-at="2026-08-01T12:29:55 IST" name="setup" description="Load homepage of the webside" finished-at="2026-08-01T12:30:08 IST" duration-ms="13000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=loginTestWithTestBased.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@6cb6decd] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@19e7a160]" started-at="2026-07-22T23:01:37 IST" name="loginTest" description="Verify with valid user login into application" data-provider="loginDataProvider" finished-at="2026-07-22T23:01:38 IST" duration-ms="859" status="PASS">
+        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.test.loginTestWithTestBased@6cb6decd]" started-at="2026-08-01T12:30:08 IST" name="loginTest" description="Verify with valid user login into application" data-provider="loginDataProvider" finished-at="2026-08-01T12:30:14 IST" duration-ms="5571" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,7 +134,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.ui.test.loginTestWithTestBased@19e7a160]" started-at="2026-07-22T23:01:38 IST" name="tearUp" description="Closing the browser." finished-at="2026-07-22T23:01:38 IST" duration-ms="82" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.ui.test.loginTestWithTestBased@6cb6decd]" started-at="2026-08-01T12:30:14 IST" name="tearUp" description="Closing the browser." finished-at="2026-08-01T12:30:15 IST" duration-ms="1105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->

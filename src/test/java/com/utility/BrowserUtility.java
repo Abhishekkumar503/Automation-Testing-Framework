@@ -16,9 +16,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.safari.SafariDriver;
-import org.openqa.selenium.safari.SafariOptions;
 
-public abstract class BrowserUtility {
+public class BrowserUtility {
 
 	private static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>(); // storing null at a time
 
@@ -38,7 +37,7 @@ public abstract class BrowserUtility {
 		}
 	}
 
-//	Constructor 2
+//	Constructor 3
 	public BrowserUtility(String browserName, Boolean isHeadless) {
 		logger.info("Opening " + browserName + " browser");
 
@@ -47,7 +46,7 @@ public abstract class BrowserUtility {
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("--headless=old");
 				options.addArguments("--window-size=1920,1080");
-				driver.set(new ChromeDriver());
+				driver.set(new ChromeDriver(options));
 				driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
 			} else {
 				driver.set(new ChromeDriver());
@@ -96,7 +95,7 @@ public abstract class BrowserUtility {
 	public BrowserUtility(WebDriver driver) {
 		super();
 		this.driver.set(driver);
-		; // initalize the instance variable driver
+		 // initalize the instance variable driver
 	}
 
 	public void goToWebsite(String url) {

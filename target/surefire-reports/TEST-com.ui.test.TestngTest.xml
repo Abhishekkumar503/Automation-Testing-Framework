@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.ui.test.TestngTest" time="17.531" tests="3" errors="0" skipped="0" failures="0" flakes="0">
+  <properties>
+    <property name="isHeadless" value="true"/>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/abhishekkumar/Developer/Projects/ATF/target/test-classes:/Users/abhishekkumar/Developer/Projects/ATF/target/classes:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-java/4.35.0/selenium-java-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-api/4.35.0/selenium-api-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.35.0/selenium-chrome-driver-4.35.0.jar:/Users/abhishekkumar/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.35.0/selenium-chromium-driver-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-json/4.35.0/selenium-json-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.35.0/selenium-manager-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v137/4.35.0/selenium-devtools-v137-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v138/4.35.0/selenium-devtools-v138-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v139/4.35.0/selenium-devtools-v139-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.35.0/selenium-edge-driver-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.35.0/selenium-firefox-driver-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-http/4.35.0/selenium-http-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.35.0/selenium-ie-driver-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.35.0/selenium-remote-driver-4.35.0.jar:/Users/abhishekkumar/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/abhishekkumar/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/abhishekkumar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/abhishekkumar/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/abhishekkumar/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-api/1.53.0/opentelemetry-api-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-context/1.53.0/opentelemetry-context-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-common/1.53.0/opentelemetry-common-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.53.0/opentelemetry-exporter-logging-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.53.0/opentelemetry-sdk-common-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.53.0/opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.53.0/opentelemetry-sdk-extension-autoconfigure-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.53.0/opentelemetry-sdk-trace-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.53.0/opentelemetry-sdk-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.53.0/opentelemetry-sdk-metrics-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.53.0/opentelemetry-sdk-logs-1.53.0.jar:/Users/abhishekkumar/.m2/repository/net/bytebuddy/byte-buddy/1.17.6/byte-buddy-1.17.6.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-os/4.35.0/selenium-os-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/apache/commons/commons-exec/1.5.0/commons-exec-1.5.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.35.0/selenium-safari-driver-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-support/4.35.0/selenium-support-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/abhishekkumar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/abhishekkumar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/abhishekkumar/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/abhishekkumar/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/abhishekkumar/.m2/repository/com/opencsv/opencsv/5.9/opencsv-5.9.jar:/Users/abhishekkumar/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/Users/abhishekkumar/.m2/repository/org/apache/commons/commons-text/1.11.0/commons-text-1.11.0.jar:/Users/abhishekkumar/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/abhishekkumar/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/abhishekkumar/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/abhishekkumar/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/abhishekkumar/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/abhishekkumar/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/abhishekkumar/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/abhishekkumar/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/abhishekkumar/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/abhishekkumar/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/abhishekkumar/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/abhishekkumar/.m2/repository/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:/Users/abhishekkumar/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/abhishekkumar/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/abhishekkumar/.m2/repository/org/apache/logging/log4j/log4j-core/2.24.3/log4j-core-2.24.3.jar:/Users/abhishekkumar/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/Users/abhishekkumar/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/abhishekkumar/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/abhishekkumar/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/abhishekkumar/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/abhishekkumar/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/abhishekkumar/.m2/repository/org/apache/poi/poi-ooxml-full/5.2.5/poi-ooxml-full-5.2.5.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="isLambda" value="false"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/abhishekkumar/Developer/Projects/ATF/target/surefire/surefirebooter-20260801130448387_3.jar /Users/abhishekkumar/Developer/Projects/ATF/target/surefire 2026-08-01T13-04-48_352-jvmRun1 surefire-20260801130448387_1tmp surefire_0-20260801130448387_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/abhishekkumar/Developer/Projects/ATF/target/test-classes:/Users/abhishekkumar/Developer/Projects/ATF/target/classes:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-java/4.35.0/selenium-java-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-api/4.35.0/selenium-api-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.35.0/selenium-chrome-driver-4.35.0.jar:/Users/abhishekkumar/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.35.0/selenium-chromium-driver-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-json/4.35.0/selenium-json-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.35.0/selenium-manager-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v137/4.35.0/selenium-devtools-v137-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v138/4.35.0/selenium-devtools-v138-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v139/4.35.0/selenium-devtools-v139-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.35.0/selenium-edge-driver-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.35.0/selenium-firefox-driver-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-http/4.35.0/selenium-http-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.35.0/selenium-ie-driver-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.35.0/selenium-remote-driver-4.35.0.jar:/Users/abhishekkumar/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/abhishekkumar/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/abhishekkumar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/abhishekkumar/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/abhishekkumar/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-api/1.53.0/opentelemetry-api-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-context/1.53.0/opentelemetry-context-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-common/1.53.0/opentelemetry-common-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.53.0/opentelemetry-exporter-logging-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.53.0/opentelemetry-sdk-common-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.53.0/opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.53.0/opentelemetry-sdk-extension-autoconfigure-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.53.0/opentelemetry-sdk-trace-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.53.0/opentelemetry-sdk-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.53.0/opentelemetry-sdk-metrics-1.53.0.jar:/Users/abhishekkumar/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.53.0/opentelemetry-sdk-logs-1.53.0.jar:/Users/abhishekkumar/.m2/repository/net/bytebuddy/byte-buddy/1.17.6/byte-buddy-1.17.6.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-os/4.35.0/selenium-os-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/apache/commons/commons-exec/1.5.0/commons-exec-1.5.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.35.0/selenium-safari-driver-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/seleniumhq/selenium/selenium-support/4.35.0/selenium-support-4.35.0.jar:/Users/abhishekkumar/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/abhishekkumar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/abhishekkumar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/abhishekkumar/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/abhishekkumar/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/abhishekkumar/.m2/repository/com/opencsv/opencsv/5.9/opencsv-5.9.jar:/Users/abhishekkumar/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/Users/abhishekkumar/.m2/repository/org/apache/commons/commons-text/1.11.0/commons-text-1.11.0.jar:/Users/abhishekkumar/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/abhishekkumar/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/abhishekkumar/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/abhishekkumar/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/abhishekkumar/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/abhishekkumar/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/abhishekkumar/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/abhishekkumar/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/abhishekkumar/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/abhishekkumar/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/abhishekkumar/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/abhishekkumar/.m2/repository/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:/Users/abhishekkumar/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/abhishekkumar/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/abhishekkumar/.m2/repository/org/apache/logging/log4j/log4j-core/2.24.3/log4j-core-2.24.3.jar:/Users/abhishekkumar/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/Users/abhishekkumar/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/abhishekkumar/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/abhishekkumar/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/abhishekkumar/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/abhishekkumar/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/abhishekkumar/.m2/repository/org/apache/poi/poi-ooxml-full/5.2.5/poi-ooxml-full-5.2.5.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/abhishekkumar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/abhishekkumar/Developer/Projects/ATF"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="isLambdaTest" value=""/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/abhishekkumar/Developer/Projects/ATF/target/surefire/surefirebooter-20260801130448387_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="24.0.2+12-54"/>
+    <property name="user.name" value="abhishekkumar"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.5.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/abhishekkumar/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/rb/2g1jt5dd5bq36drz79tk47k00000gn/T/"/>
+    <property name="java.version" value="24.0.2"/>
+    <property name="user.dir" value="/Users/abhishekkumar/Developer/Projects/ATF"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/abhishekkumar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.2+12-54"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="loginCSVTest(com.ui.pojo.User)[0]" classname="com.ui.test.TestngTest" time="0.962">
+    <system-out><![CDATA[2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onStart::165 Test suite Started 
+[senax57658@sixoplus.com, 9876543210]
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::99 loginCSVTest 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::100 Verify with valid user login into application 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::101 [e2e, sanity] 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestSuccess::116 loginCSVTest PASSED 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::99 loginTest 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::100 Verify with valid user login into application 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::101 [e2e, sanity] 
+/Users/abhishekkumar/Developer/Projects/ATF/config/config.json
+com.ui.pojo.Environment@6c4f9535
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestSuccess::116 loginTest PASSED 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::99 loginTest 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::100 Verify with valid user login into application 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::101 [e2e, sanity] 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestSuccess::116 loginTest PASSED 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onFinish::171 Test suite Completed 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onStart::165 Test suite Started 
+[senax57658@sixoplus.com, 9876543210]
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::99 loginCSVTest 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::100 Verify with valid user login into application 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::101 [e2e, sanity] 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestSuccess::116 loginCSVTest PASSED 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::99 loginTest 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::100 Verify with valid user login into application 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::101 [e2e, sanity] 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestSuccess::116 loginTest PASSED 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::99 loginTest 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::100 Verify with valid user login into application 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestStart::101 [e2e, sanity] 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onTestSuccess::116 loginTest PASSED 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onFinish::171 Test suite Completed 
+2026-08-213 13:04:48 [main] INFO com.ui.listeners.TestListener::onStart::165 Test suite Started 
+[senax57658@sixoplus.com, 9876543210]
+2026-08-213 13:04:48 [main] INFO com.ui.pages.HomePage::<init>::28 Opening chrome browser 
+/Users/abhishekkumar/Developer/Projects/ATF/config/config.json
+com.ui.pojo.Environment@3ed7821
+2026-08-213 13:04:49 [main] INFO com.ui.pages.HomePage::goToWebsite::102 navigating to the https://automationpractice.techwithjatin.com/my-account 
+2026-08-213 13:04:53 [main] INFO com.ui.pages.HomePage::maximizeWindow::107 Maxmizing the browser 
+2026-08-213 13:04:53 [main] INFO com.ui.test.TestngTest::setup::23 Launching Chrome browser!! 
+2026-08-213 13:04:53 [main] INFO com.ui.listeners.TestListener::onTestStart::99 loginCSVTest 
+2026-08-213 13:04:53 [main] INFO com.ui.listeners.TestListener::onTestStart::100 Verify with valid user login into application 
+2026-08-213 13:04:53 [main] INFO com.ui.listeners.TestListener::onTestStart::101 [e2e, sanity] 
+2026-08-213 13:04:53 [main] INFO com.ui.test.TestngTest::loginCSVTest::45 Starting my Login test with CSV 
+2026-08-213 13:04:53 [main] INFO com.ui.pages.HomePage::goToLoginPage::38 Navigating to the Login page! 
+2026-08-213 13:04:54 [main] INFO com.ui.pages.LoginPage::login::26 Entering the email : senax57658@sixoplus.com 
+2026-08-213 13:04:54 [main] INFO com.ui.pages.LoginPage::login::28 Entering the password : 9876543210 
+2026-08-213 13:04:54 [main] INFO com.ui.pages.LoginPage::login::30 Click on the Submit button! 
+2026-08-213 13:04:54 [main] INFO com.ui.pages.LoginPage::login::32 Navigating the Account Page!! 
+2026-08-213 13:04:54 [main] INFO com.ui.test.TestngTest::loginCSVTest::48 Login CSV test completed!! 
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Aug 01, 2026 1:04:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Aug 01, 2026 1:04:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest(com.ui.pojo.User)[0]" classname="com.ui.test.TestngTest" time="1.052">
+    <system-out><![CDATA[2026-08-213 13:04:54 [main] INFO com.ui.listeners.TestListener::onTestSuccess::116 loginCSVTest PASSED 
+2026-08-213 13:04:54 [main] INFO com.ui.pages.HomePage::quitDriver::127 Quiting the browser!! 
+2026-08-213 13:04:55 [main] INFO com.ui.test.TestngTest::tearUp::63 Closing the browser!! 
+2026-08-213 13:04:55 [main] INFO com.ui.pages.HomePage::<init>::28 Opening chrome browser 
+/Users/abhishekkumar/Developer/Projects/ATF/config/config.json
+com.ui.pojo.Environment@67064bdc
+2026-08-213 13:04:55 [main] INFO com.ui.pages.HomePage::goToWebsite::102 navigating to the https://automationpractice.techwithjatin.com/my-account 
+2026-08-213 13:04:58 [main] INFO com.ui.pages.HomePage::maximizeWindow::107 Maxmizing the browser 
+2026-08-213 13:04:58 [main] INFO com.ui.test.TestngTest::setup::23 Launching Chrome browser!! 
+2026-08-213 13:04:58 [main] INFO com.ui.listeners.TestListener::onTestStart::99 loginTest 
+2026-08-213 13:04:58 [main] INFO com.ui.listeners.TestListener::onTestStart::100 Verify with valid user login into application 
+2026-08-213 13:04:58 [main] INFO com.ui.listeners.TestListener::onTestStart::101 [e2e, sanity] 
+2026-08-213 13:04:58 [main] INFO com.ui.test.TestngTest::loginTest::37 Starting my Login test with JSON 
+2026-08-213 13:04:58 [main] INFO com.ui.pages.HomePage::goToLoginPage::38 Navigating to the Login page! 
+2026-08-213 13:04:59 [main] INFO com.ui.pages.LoginPage::login::26 Entering the email : senax57658@sixoplus.com 
+2026-08-213 13:04:59 [main] INFO com.ui.pages.LoginPage::login::28 Entering the password : 9876543210 
+2026-08-213 13:04:59 [main] INFO com.ui.pages.LoginPage::login::30 Click on the Submit button! 
+2026-08-213 13:04:59 [main] INFO com.ui.pages.LoginPage::login::32 Navigating the Account Page!! 
+2026-08-213 13:04:59 [main] INFO com.ui.test.TestngTest::loginTest::39 Login JSON test completed!! 
+]]></system-out>
+    <system-err><![CDATA[Aug 01, 2026 1:04:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Aug 01, 2026 1:04:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest(com.ui.pojo.User)[1]" classname="com.ui.test.TestngTest" time="0.945">
+    <system-out><![CDATA[2026-08-213 13:04:59 [main] INFO com.ui.listeners.TestListener::onTestSuccess::116 loginTest PASSED 
+2026-08-213 13:04:59 [main] INFO com.ui.pages.HomePage::quitDriver::127 Quiting the browser!! 
+2026-08-213 13:04:59 [main] INFO com.ui.test.TestngTest::tearUp::63 Closing the browser!! 
+2026-08-213 13:04:59 [main] INFO com.ui.pages.HomePage::<init>::28 Opening chrome browser 
+/Users/abhishekkumar/Developer/Projects/ATF/config/config.json
+com.ui.pojo.Environment@67cefd84
+2026-08-213 13:05:00 [main] INFO com.ui.pages.HomePage::goToWebsite::102 navigating to the https://automationpractice.techwithjatin.com/my-account 
+2026-08-213 13:05:05 [main] INFO com.ui.pages.HomePage::maximizeWindow::107 Maxmizing the browser 
+2026-08-213 13:05:05 [main] INFO com.ui.test.TestngTest::setup::23 Launching Chrome browser!! 
+2026-08-213 13:05:05 [main] INFO com.ui.listeners.TestListener::onTestStart::99 loginTest 
+2026-08-213 13:05:05 [main] INFO com.ui.listeners.TestListener::onTestStart::100 Verify with valid user login into application 
+2026-08-213 13:05:05 [main] INFO com.ui.listeners.TestListener::onTestStart::101 [e2e, sanity] 
+2026-08-213 13:05:05 [main] INFO com.ui.test.TestngTest::loginTest::37 Starting my Login test with JSON 
+2026-08-213 13:05:05 [main] INFO com.ui.pages.HomePage::goToLoginPage::38 Navigating to the Login page! 
+2026-08-213 13:05:05 [main] INFO com.ui.pages.LoginPage::login::26 Entering the email : senax57658@sixoplus.com 
+2026-08-213 13:05:05 [main] INFO com.ui.pages.LoginPage::login::28 Entering the password : 9876543210 
+2026-08-213 13:05:05 [main] INFO com.ui.pages.LoginPage::login::30 Click on the Submit button! 
+2026-08-213 13:05:05 [main] INFO com.ui.pages.LoginPage::login::32 Navigating the Account Page!! 
+2026-08-213 13:05:06 [main] INFO com.ui.test.TestngTest::loginTest::39 Login JSON test completed!! 
+]]></system-out>
+    <system-err><![CDATA[Aug 01, 2026 1:05:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Aug 01, 2026 1:05:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
