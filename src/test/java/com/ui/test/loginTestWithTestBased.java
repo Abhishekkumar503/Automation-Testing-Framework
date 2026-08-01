@@ -34,7 +34,7 @@ public class loginTestWithTestBased extends TestBased{
 	public void loginCSVTest(User user){
 		logger.info("Starting my Login test with CSV");
 		String name = homepage.goToLoginPage().login(user.getEmail(),user.getPassword()).getUserName();
-		Assert.assertEquals(name, "Abis k");
+		Assert.assertEquals(name, "Abis K");
 		logger.info("Login CSV test completed!!");
 		}
 	
