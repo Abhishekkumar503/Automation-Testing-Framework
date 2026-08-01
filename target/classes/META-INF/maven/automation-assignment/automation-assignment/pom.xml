@@ -82,21 +82,8 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.6.0-M1</version>
-        <configuration>
+    
         
-        <!-- This will help for transfering value from terminal to testng -->
-        <suiteXmlFiles>
-        <suiteXmlFile>testng.xml</suiteXmlFile>
-        </suiteXmlFiles>
-
- <!-- This will help for transfering value from terminal to testng -->        
-        <systemPropertyVariables>
-    		<browser>${browser}</browser>
-    		<isLambdaTest>${isLambdaTest}</isLambdaTest>
-   			<isHeadless>${isHeadless}</isHeadless>
-		</systemPropertyVariables>
-          
-        </configuration>
       </plugin>
   </plugins>
   </build>
