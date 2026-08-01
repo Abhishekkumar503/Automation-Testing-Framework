@@ -1,69 +1,73 @@
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener Test suite Started 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener loginCSVTest 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener loginCSVTest PASSED 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener loginTest PASSED 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener loginTest PASSED 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener Test suite Completed 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener Test suite Started 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener loginCSVTest 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener loginCSVTest PASSED 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener loginTest PASSED 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener loginTest PASSED 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener Test suite Completed 
-2026-08-213 13:06:58 [main] INFO com.ui.listeners.TestListener Test suite Started 
-2026-08-213 13:07:11 [main] INFO com.ui.pages.HomePage navigating to the https://automationpractice.techwithjatin.com/my-account 
-2026-08-213 13:07:12 [main] INFO com.ui.pages.HomePage Maxmizing the browser 
-2026-08-213 13:07:12 [main] INFO com.ui.listeners.TestListener loginCSVTest 
-2026-08-213 13:07:12 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
-2026-08-213 13:07:12 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-213 13:07:12 [main] INFO com.ui.test.loginTestWithTestBased Starting my Login test with CSV 
-2026-08-213 13:07:12 [main] INFO com.ui.pages.HomePage Navigating to the Login page! 
-2026-08-213 13:07:14 [main] INFO com.ui.pages.LoginPage Entering the email : senax57658@sixoplus.com 
-2026-08-213 13:07:15 [main] INFO com.ui.pages.LoginPage Entering the password : 9876543210 
-2026-08-213 13:07:15 [main] INFO com.ui.pages.LoginPage Click on the Submit button! 
-2026-08-213 13:07:15 [main] INFO com.ui.pages.LoginPage Navigating the Account Page!! 
-2026-08-213 13:07:16 [main] INFO com.ui.test.loginTestWithTestBased Login CSV test completed!! 
-2026-08-213 13:07:16 [main] INFO com.ui.listeners.TestListener loginCSVTest PASSED 
-2026-08-213 13:07:27 [main] INFO com.ui.pages.HomePage navigating to the https://automationpractice.techwithjatin.com/my-account 
-2026-08-213 13:07:28 [main] INFO com.ui.pages.HomePage Maxmizing the browser 
-2026-08-213 13:07:28 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-08-213 13:07:28 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
-2026-08-213 13:07:28 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-213 13:07:28 [main] INFO com.ui.test.loginTestWithTestBased Starting my Login test with JSON 
-2026-08-213 13:07:28 [main] INFO com.ui.pages.HomePage Navigating to the Login page! 
-2026-08-213 13:07:29 [main] INFO com.ui.pages.LoginPage Entering the email : senax57658@sixoplus.com 
-2026-08-213 13:07:30 [main] INFO com.ui.pages.LoginPage Entering the password : 9876543210 
-2026-08-213 13:07:30 [main] INFO com.ui.pages.LoginPage Click on the Submit button! 
-2026-08-213 13:07:30 [main] INFO com.ui.pages.LoginPage Navigating the Account Page!! 
-2026-08-213 13:07:31 [main] INFO com.ui.test.loginTestWithTestBased Login JSON test completed!! 
-2026-08-213 13:07:31 [main] INFO com.ui.listeners.TestListener loginTest PASSED 
-2026-08-213 13:07:44 [main] INFO com.ui.pages.HomePage navigating to the https://automationpractice.techwithjatin.com/my-account 
-2026-08-213 13:07:48 [main] INFO com.ui.pages.HomePage Maxmizing the browser 
-2026-08-213 13:07:50 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-08-213 13:07:50 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
-2026-08-213 13:07:50 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-213 13:07:50 [main] INFO com.ui.test.loginTestWithTestBased Starting my Login test with JSON 
-2026-08-213 13:07:50 [main] INFO com.ui.pages.HomePage Navigating to the Login page! 
-2026-08-213 13:07:54 [main] INFO com.ui.pages.LoginPage Entering the email : senax57658@sixoplus.com 
-2026-08-213 13:07:58 [main] INFO com.ui.pages.LoginPage Entering the password : 9876543210 
-2026-08-213 13:08:01 [main] INFO com.ui.pages.LoginPage Click on the Submit button! 
-2026-08-213 13:08:01 [main] INFO com.ui.pages.LoginPage Navigating the Account Page!! 
-2026-08-213 13:08:04 [main] INFO com.ui.test.loginTestWithTestBased Login JSON test completed!! 
-2026-08-213 13:08:04 [main] INFO com.ui.listeners.TestListener loginTest PASSED 
-2026-08-213 13:08:05 [main] INFO com.ui.listeners.TestListener Test suite Completed 
+2026-08-213 23:43:06 [main] INFO com.ui.listeners.TestListener Test suite Started 
+2026-08-213 23:43:16 [main] INFO com.ui.pages.HomePage navigating to the https://automationpractice.techwithjatin.com/my-account 
+2026-08-213 23:43:17 [main] INFO com.ui.pages.HomePage Maxmizing the browser 
+2026-08-213 23:43:17 [main] INFO com.ui.listeners.TestListener loginCSVTest 
+2026-08-213 23:43:17 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
+2026-08-213 23:43:17 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-08-213 23:43:17 [main] INFO com.ui.test.loginTestWithTestBased Starting my Login test with CSV 
+2026-08-213 23:43:17 [main] INFO com.ui.pages.HomePage Navigating to the Login page! 
+2026-08-213 23:43:19 [main] INFO com.ui.pages.LoginPage Entering the email : senax57658@sixoplus.com 
+2026-08-213 23:43:19 [main] INFO com.ui.pages.LoginPage Entering the password : 9876543210 
+2026-08-213 23:43:20 [main] INFO com.ui.pages.LoginPage Click on the Submit button! 
+2026-08-213 23:43:20 [main] INFO com.ui.pages.LoginPage Navigating the Account Page!! 
+2026-08-213 23:43:20 [main] INFO com.ui.test.loginTestWithTestBased Login CSV test completed!! 
+2026-08-213 23:43:20 [main] INFO com.ui.listeners.TestListener loginCSVTest PASSED 
+2026-08-213 23:43:32 [main] INFO com.ui.pages.HomePage navigating to the https://automationpractice.techwithjatin.com/my-account 
+2026-08-213 23:43:35 [main] INFO com.ui.pages.HomePage Maxmizing the browser 
+2026-08-213 23:43:36 [main] INFO com.ui.listeners.TestListener loginTest 
+2026-08-213 23:43:36 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
+2026-08-213 23:43:36 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-08-213 23:43:36 [main] INFO com.ui.test.loginTestWithTestBased Starting my Login test with JSON 
+2026-08-213 23:43:36 [main] INFO com.ui.pages.HomePage Navigating to the Login page! 
+2026-08-213 23:43:39 [main] INFO com.ui.pages.LoginPage Entering the email : senax57658@sixoplus.com 
+2026-08-213 23:43:40 [main] INFO com.ui.pages.LoginPage Entering the password : 9876543210 
+2026-08-213 23:43:41 [main] INFO com.ui.pages.LoginPage Click on the Submit button! 
+2026-08-213 23:43:41 [main] INFO com.ui.pages.LoginPage Navigating the Account Page!! 
+2026-08-213 23:43:42 [main] INFO com.ui.test.loginTestWithTestBased Login JSON test completed!! 
+2026-08-213 23:43:42 [main] INFO com.ui.listeners.TestListener loginTest PASSED 
+2026-08-213 23:43:54 [main] INFO com.ui.pages.HomePage navigating to the https://automationpractice.techwithjatin.com/my-account 
+2026-08-213 23:43:57 [main] INFO com.ui.pages.HomePage Maxmizing the browser 
+2026-08-213 23:43:58 [main] INFO com.ui.listeners.TestListener loginTest 
+2026-08-213 23:43:58 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
+2026-08-213 23:43:58 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-08-213 23:43:58 [main] INFO com.ui.test.loginTestWithTestBased Starting my Login test with JSON 
+2026-08-213 23:43:58 [main] INFO com.ui.pages.HomePage Navigating to the Login page! 
+2026-08-213 23:44:00 [main] INFO com.ui.pages.LoginPage Entering the email : senax57658@sixoplus.com 
+2026-08-213 23:44:01 [main] INFO com.ui.pages.LoginPage Entering the password : 987654321 
+2026-08-213 23:44:02 [main] INFO com.ui.pages.LoginPage Click on the Submit button! 
+2026-08-213 23:44:02 [main] INFO com.ui.pages.LoginPage Navigating the Account Page!! 
+2026-08-213 23:44:02 [main] WARN com.ui.listeners.TestListener loginTest SKIPPED 
+2026-08-213 23:44:12 [main] INFO com.ui.pages.HomePage navigating to the https://automationpractice.techwithjatin.com/my-account 
+2026-08-213 23:44:13 [main] INFO com.ui.pages.HomePage Maxmizing the browser 
+2026-08-213 23:44:14 [main] INFO com.ui.listeners.TestListener loginTest 
+2026-08-213 23:44:14 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
+2026-08-213 23:44:14 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-08-213 23:44:14 [main] INFO com.ui.test.loginTestWithTestBased Starting my Login test with JSON 
+2026-08-213 23:44:14 [main] INFO com.ui.pages.HomePage Navigating to the Login page! 
+2026-08-213 23:44:17 [main] INFO com.ui.pages.LoginPage Entering the email : senax57658@sixoplus.com 
+2026-08-213 23:44:17 [main] INFO com.ui.pages.LoginPage Entering the password : 987654321 
+2026-08-213 23:44:18 [main] INFO com.ui.pages.LoginPage Click on the Submit button! 
+2026-08-213 23:44:18 [main] INFO com.ui.pages.LoginPage Navigating the Account Page!! 
+2026-08-213 23:44:18 [main] WARN com.ui.listeners.TestListener loginTest SKIPPED 
+2026-08-213 23:44:30 [main] INFO com.ui.pages.HomePage navigating to the https://automationpractice.techwithjatin.com/my-account 
+2026-08-213 23:44:33 [main] INFO com.ui.pages.HomePage Maxmizing the browser 
+2026-08-213 23:44:34 [main] INFO com.ui.listeners.TestListener loginTest 
+2026-08-213 23:44:34 [main] INFO com.ui.listeners.TestListener Verify with valid user login into application 
+2026-08-213 23:44:34 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-08-213 23:44:34 [main] INFO com.ui.test.loginTestWithTestBased Starting my Login test with JSON 
+2026-08-213 23:44:34 [main] INFO com.ui.pages.HomePage Navigating to the Login page! 
+2026-08-213 23:44:37 [main] INFO com.ui.pages.LoginPage Entering the email : senax57658@sixoplus.com 
+2026-08-213 23:44:38 [main] INFO com.ui.pages.LoginPage Entering the password : 987654321 
+2026-08-213 23:44:39 [main] INFO com.ui.pages.LoginPage Click on the Submit button! 
+2026-08-213 23:44:39 [main] INFO com.ui.pages.LoginPage Navigating the Account Page!! 
+2026-08-213 23:44:39 [main] ERROR com.ui.listeners.TestListener loginTest FAILED 
+2026-08-213 23:44:39 [main] ERROR com.ui.listeners.TestListener no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title='View my customer account']/span"}
+  (Session info: chrome=150.0.7871.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.5.2', java.version: '24.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a3f7fa5f71721926953288ec87ef6ab5, findElement {using=xpath, value=//*[@title='View my customer account']/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.115, chrome: {chromedriverVersion: 150.0.7871.115 (25f5b661e5b..., userDataDir: C:\Program Files (x86)\scop...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, goog:processID: 4276, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: wss://cdp-mumbai.lambdatest..., se:cdpVersion: 150.0.7871.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3f7fa5f71721926953288ec87ef6ab5 
+2026-08-213 23:44:42 [main] INFO com.ui.listeners.TestListener Test suite Completed 

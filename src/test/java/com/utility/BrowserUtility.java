@@ -70,13 +70,12 @@ public class BrowserUtility {
 		String timeStamp = format.format(date);
 
 //		 Now add timestamp to screenshot name
-		String path = ".//screenshot//" + name + "-" + timeStamp + ".png";
+		String path = "./screenshot/" + name + "-" + timeStamp + ".png";
 		File screenshotFile = new File(path);
 
 		try {
 			FileUtils.copyFile(screenShotData, screenshotFile);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
