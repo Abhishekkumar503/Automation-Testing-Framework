@@ -22,7 +22,7 @@ public class ExcelUtility {
 		Cell firstCell;
 		Cell secondCell;
 		Row row;
-		File file = new File(System.getProperty("user.dir") + "/testData/" + fileName + ".xlsx"); // Location
+		File file = new File("./testData/" + fileName + ".xlsx"); // Location
 		try {
 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook(file); 
 			XSSFSheet xssfSheet = xssfWorkbook.getSheet(""); // pointing to sheet

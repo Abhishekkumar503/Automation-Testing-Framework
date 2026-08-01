@@ -11,7 +11,7 @@ public class PropertyUtil {
 	public static String readProperty(Env env, String propertyName) {
 		// geting properties location
 		System.out.println(System.getProperty("user.dir"));
-		File propFile = new File(System.getProperty("user.dir") + "/config/" + env + ".properties");
+		File propFile = new File("./config/" + env + ".properties");
 
 		// creating file reader to read properteis file
 		FileReader fileReader;
