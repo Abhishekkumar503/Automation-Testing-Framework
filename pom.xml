@@ -84,10 +84,10 @@
         <version>3.6.0-M1</version>
         <configuration>
         
-        <!-- This will help for transfering value from terminal to testng -->
+        <!-- <!-- This will help for transfering value from terminal to testng -->
         <suiteXmlFiles>
         <suiteXmlFile>testng.xml</suiteXmlFile>
-        </suiteXmlFiles>
+        </suiteXmlFiles> -->
 
  <!-- This will help for transfering value from terminal to testng -->        
         <systemPropertyVariables>
