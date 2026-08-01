@@ -38,13 +38,13 @@ public class loginTestWithTestBased extends TestBased{
 		logger.info("Login CSV test completed!!");
 		}
 	
-//	@Test(description = "Verify with valid user login into application" , groups = {"e2e","sanity"}, dataProviderClass = com.ui.loginDataProvider.LoginDataProvider.class, dataProvider = "excelDataProvider")
-//	public void loginExcelTest(User user){
-//		logger.info("Starting my Login test with excel");
-//		String name = homepage.goToLoginPage().login(user.getEmail(),user.getPassword()).getUserName();
-//		Assert.assertEquals(name, "Abis K");
-//		logger.info("Login excel test completed!!");
-//		}
+	@Test(description = "Verify with valid user login into application" , groups = {"e2e","sanity"}, dataProviderClass = com.ui.loginDataProvider.LoginDataProvider.class, dataProvider = "excelDataProvider")
+	public void loginExcelTest(User user){
+		logger.info("Starting my Login test with excel");
+		String name = homepage.goToLoginPage().login(user.getEmail(),user.getPassword()).getUserName();
+		Assert.assertEquals(name, "Abis K");
+		logger.info("Login excel test completed!!");
+		}
 	
 	
 }
