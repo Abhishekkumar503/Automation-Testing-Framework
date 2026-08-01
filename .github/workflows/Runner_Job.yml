@@ -1,47 +1,47 @@
 name: Test Automation runner
+
 on:
   schedule:
-      - cron: '00 18 * * *'
+    - cron: '00 18 * * *'
   push:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-    
-    
+
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up JDK 8
-      uses: actions/setup-java@v4
-      with:
-        java-version: '8'
-        distribution: 'temurin'
+      - uses: actions/checkout@v4
 
-    - name: Run Test
-      run: mvn test -Dtest=com.ui.test.loginTestWithTestBased -Dbrowser=chrome -DisLambdaTest=true -DisHeadless=true
+      - name: Set up JDK 8
+        uses: actions/setup-java@v4
+        with:
+          java-version: '8'
+          distribution: 'temurin'
 
-    - name: Upload a logs Artifact
-      if: always()
-      uses: actions/upload-artifact@v7.0.1
-      with:
-        name: Automation Logs
-        path: logs/
+      - name: Run Test
+        run: |
+          mvn test \
+            -Dtest=com.ui.test.loginTestWithTestBased \
+            -Dbrowser=chrome \
+            -DisLambdaTest=true \
+            -DisHeadless=true
 
-    - name: Upload a Extends Artifact
-      if: always()
-      uses: actions/upload-artifact@v7.0.1
-      with:
-        name: extend-report
-        path: reports/
+      - name: Upload a logs Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Automation Logs
+          path: logs/
 
+      - name: Upload an Extent Report Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: extent-report
+          path: reports/
 
-    - name: Test execution status
-      run: echo "Execution Completed!"
-    
-    
-    
-    
+      - name: Test execution status
+        run: echo "Execution Completed!"
