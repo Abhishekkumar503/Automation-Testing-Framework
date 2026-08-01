@@ -60,7 +60,7 @@ jobs:
 
         run: |
          mkdir -p public/Extend_Reports/
-         cp -R extent.html public/Extend_Reports
+         cp -R Extend_Reports public/Extend_Reports
          cp -R screenshot/* public/Extend_Reports/screenshots
 
 
